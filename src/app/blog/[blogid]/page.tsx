@@ -1,9 +1,12 @@
-import React from 'react'
 
-function DynamicBlogPage() {
+const DynamicBlogPage = async ({ params }:
+    { params: Promise<{ blogId: string }> }
+) => {
+    const { blogId } = await params;
+
     return (
-        <div>Dynamic Blog Page</div>
+        <div>dynamic blog {blogId}</div>
     )
 }
 
-export default DynamicBlogPage
+export default DynamicBlogPage;
