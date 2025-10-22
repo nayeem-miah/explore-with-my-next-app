@@ -268,6 +268,11 @@ By understanding:
 
 You’ll be ready to develop production-grade applications with clean structure and performance optimization.
 
-
-
+# module 2
+<!-- next js image optimize -->
+<!-- next js Font optimize -->
+<!-- meta data -->
+<!-- absolute and relative path -->
+<!-- setup json-server -->
 <!--  data fetching -->
+

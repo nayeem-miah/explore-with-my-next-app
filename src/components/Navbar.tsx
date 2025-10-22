@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="grid gap-4 grid-cols-4">
                 <Link href="/about" className="">About</Link>
                 <Link href="/dashboard" className="">Dashboard</Link>
-                <Link href="/contact" className="">Contact</Link>
+                <Link href="/gallery" className="">Gallery</Link>
                 <Link href="/login" className="">Login</Link>
             </div>
         </div>
