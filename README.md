@@ -267,3 +267,7 @@ By understanding:
 * CSS Module styling
 
 You’ll be ready to develop production-grade applications with clean structure and performance optimization.
+
+
+
+<!--  data fetching -->
