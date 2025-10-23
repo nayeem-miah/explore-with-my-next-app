@@ -16,18 +16,17 @@ const PostPage = async () => {
     const posts = await res.json();
     // console.log(posts);
     return (
-        <div className="grid grid-cols-3 gap-6">
-            {
-                posts?.map((post: IPost) =>
-                    <div
-                        key={post.id}
-                        className="bg-teal-950 p-4"
-                    >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">            {
+            posts?.map((post: IPost) =>
+                <div
+                    key={post.id}
+                    className="bg-teal-950 p-4"
+                >
 
-                        <h3 className="text-2xl">{post.title}</h3>
-                    </div>
-                )
-            }
+                    <h3 className="text-2xl">{post.title}</h3>
+                </div>
+            )
+        }
         </div>
     )
 }
