@@ -9,7 +9,7 @@ function HomePage() {
     router.push("/dashboard")
   }
 
-  console.log("Hello world!!");
+  // console.log("Hello world!!");
   return (
     <div className="text-center flex justify-center items-center flex-col gap-4 min-h-screen">
       <h3 className="text-2xl">Welcome to the next.js Home page</h3>
