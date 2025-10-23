@@ -475,50 +475,6 @@ This module covers advanced Next.js concepts focusing on optimization, routing, 
 
 ---
 
-## 🧠 Topics Covered
-
-1. **Image Optimization**
-   - Uses `<Image>` for responsive and lazy-loaded images.
-   - Improves performance and SEO.
-
-2. **Font Optimization**
-   - Efficiently loads Google or local fonts using `next/font`.
-   - Prevents layout shift and speeds up rendering.
-
-3. **Meta Data**
-   - Define SEO titles and descriptions with the `metadata` object.
-
-4. **Absolute vs Relative Path**
-   - Configure absolute imports using `jsconfig.json` for cleaner code.
-
-5. **Setup JSON Server**
-   - Create a mock REST API with:
-     ```bash
-     json-server --watch db.json --port 5000
-     ```
-
-6. **Data Fetching**
-   - Understand SSR, SSG, and CSR for rendering and API fetching.
-
-7. **Data Caching**
-   - Use caching strategies (`force-cache`, `no-store`, `revalidate`) to optimize data performance.
-
-8. **Error Page**
-   - Build a custom `app/error.tsx` to handle runtime or build-time errors.
-
-9. **Loading Page**
-   - Add `app/loading.tsx` for route-level loading indicators.
-
-10. **usePathname Hook**
-    - Highlight the current active navigation link using:
-      ```tsx
-      const path = usePathname()
-      ```
-
----
-
----
-
 ## 🏁 Conclusion
 
 Next.js (App Router + TypeScript) combines **React’s flexibility** with **server capabilities** to build scalable, modern, and SEO-friendly web apps.
