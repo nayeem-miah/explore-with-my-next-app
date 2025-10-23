@@ -469,12 +469,6 @@ export default function Navbar() {
 
 ---
 
-# 📘 Next.js Module 2 Overview
-
-This module covers advanced Next.js concepts focusing on optimization, routing, and improving user experience.
-
----
-
 ## 🏁 Conclusion
 
 Next.js (App Router + TypeScript) combines **React’s flexibility** with **server capabilities** to build scalable, modern, and SEO-friendly web apps.
